@@ -1,0 +1,23 @@
+
+body {
+  direction: rtl; 
+  text-align: center; 
+}
+.divForRole{
+  margin-right: 10px; /* מרווח בין פריטים */
+
+  width: 150px; height: 150px; border-radius: 10px; border: 1px solid rgba(211, 211, 211, 0.699);
+   
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.modal-dialog {
+  max-width: 800px; /* רוחב מרבי */
+  width: 80%; /* רוחב כאשר התוכן יהיה מעל לרוחב המרבי */
+}
+
