@@ -2,6 +2,7 @@ import './App.css'
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import EmployeeTable from './Components/EmployeeTable';
+import EditModel from './Components/editModel';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
       {/* <MyRoute /> */}
       <div className='container'>
-        
+        {/* <EditModel/> */}
         <EmployeeTable />
       </div>
       </>

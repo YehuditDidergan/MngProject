@@ -1,31 +1,87 @@
 import React, { useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
-import EmployeeStore from '../mobx/EmployeeStore';
-import RoleStore from '../mobx/RoleStore'; 
+import DatePicker from 'react-datepicker';
+import RoleStore from '../mobx/RoleStore';
+import { Button } from 'react-bootstrap';
+import 'react-datepicker/dist/react-datepicker.css';
 
-function DeleteModel({employeeId}) {
-    const [idOfRole, setIdOfRole] = useState(-1)
-    const [idOfER, setIdOfER] = useState(-1)
-
-    const employee = EmployeeStore.employees.find(e => e.id === employeeId)
-    const [emp, setEmp] = useState((employeeId !== -1) ?
-        {
-            id: employeeId, firstName: employee.firstName, lastName: employee.lastName,
-            tz: employee.tz, startDate: employee.startDate, birthDate: employee.birthDate,
-            isMale: employee.isMale, status: employee.status, empRoleId: employee.empRoleId
-        } :
-        {
-            id: EmployeeStore.id++, firstName: "", lastName: "",
-            tz: "", startDate: null, birthDate: null, isMale: false, status: true, empRoleId: null
-        }
-    )
-    const [employeeRole, setEmployeeRole] = useState({ id: null, roleId: null, empId: emp,id, isManagment: null, startRole: null })
+function EditModel({ emp, setEmp }) {
 
   return (
     <>
-      
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+        {RoleStore.roles.map((role, index) => {
+          // Check if the role is already in empRole
+          const isRoleSelected = emp.empRole.some(item => item.roleId === role.id);
+
+          return (
+            <div key={index} style={{ display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
+              <h5>{role.name}</h5>
+
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <input
+                  type="radio"
+                  id={`true-${index}`}
+                  name={`isManagement-${index}`}
+                  value={true}
+                  checked={isRoleSelected && emp.empRole.find(item => item.roleId === role.id)?.isManagement === true}
+                  onChange={(e) => {
+                    const updatedEmpRole = [...emp.empRole];
+                    const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                    if (existingRoleIndex !== -1) {
+                      updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], isManagement: true };
+                    } else {
+                      updatedEmpRole.push({ roleId: role.id, isManagement: true, startRole: null });
+                    }
+                    setEmp({ ...emp, empRole: updatedEmpRole });
+                  }}
+                />
+                <label htmlFor={`true-${index}`}>ניהולי</label>
+
+                <input
+                  type="radio"
+                  id={`false-${index}`}
+                  name={`isManagement-${index}`}
+                  value={false}
+                  checked={isRoleSelected && emp.empRole.find(item => item.roleId === role.id)?.isManagement === false}
+                  onChange={(e) => {
+                    const updatedEmpRole = [...emp.empRole];
+                    const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                    if (existingRoleIndex !== -1) {
+                      updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], isManagement: false };
+                    } else {
+                      updatedEmpRole.push({ roleId: role.id, isManagement: false, startRole: null });
+                    }
+                    setEmp({ ...emp, empRole: updatedEmpRole });
+                  }}
+                />
+                <label htmlFor={`false-${index}`}>לא ניהולי</label>
+              </div>
+
+              <DatePicker
+                className='form-control'
+                dateFormat="dd/MM/yyyy"
+                selected={isRoleSelected ? emp.empRole.find(item => item.roleId === role.id)?.startRole : null}
+                onChange={(date) => {
+                  const updatedEmpRole = [...emp.empRole];
+                  const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                  if (existingRoleIndex !== -1) {
+                    updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], startRole: date };
+                    setEmp({ ...emp, empRole: updatedEmpRole });
+                  }
+                }}
+              />
+              {isRoleSelected &&
+                <button style={{ border: 'none' }} onClick={() => {
+                  const updatedEmpRole = emp.empRole.filter(item => item.roleId !== role.id);
+                  setEmp({ ...emp, empRole: updatedEmpRole });
+                }}>🗑</button>}
+            </div>
+          );
+        })}
+
+      </div>
     </>
   );
 }
 
-export default DeleteModel;
+export default EditModel;

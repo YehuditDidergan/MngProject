@@ -11,8 +11,16 @@ class EmployeeStore {
             tz: '325984870',
             birthDate: new Date(2004, 1, 1),
             isMale: false,
-            empRoleId: [1, 2],
-            startDate: new Date(2024, 19, 5),
+            empRole: [{
+                roleId: 3,
+                isManagement: true,
+                startRole: new Date(2024, 1, 12)
+            }, {
+                roleId: 2,
+                isManagement: false,
+                startRole: new Date(2012, 10, 5)
+            }],
+            startDate: new Date(2024, 1, 12),
             status: true,
         },
         {
@@ -22,8 +30,12 @@ class EmployeeStore {
             tz: '059825232',
             birthDate: new Date(1965, 4, 12),
             isMale: true,
-            empRoleId: [3],
-            startDate: new Date(2000, 15, 3),
+            empRole: [{
+                roleId: 2,
+                isManagement: false,
+                startRole: new Date(2012, 10, 5)
+            }],
+            startDate: new Date(2020, 15, 3),
             status: true,
         },
         {
@@ -33,18 +45,30 @@ class EmployeeStore {
             tz: '023635055',
             birthDate: new Date(1977, 24, 12),
             isMale: false,
-            empRoleId: [],
-            startDate: new Date(2002, 10, 8),
+            empRole: [{
+                roleId: 5,
+                isManagement: true,
+                startRole: new Date(2015, 3, 4)
+            }, {
+                roleId: 4,
+                isManagement: false,
+                startRole: new Date(2010, 11, 5)
+            }, {
+                roleId: 3,
+                isManagement: false,
+                startRole: new Date(2002, 1, 5)
+            }],
+            startDate: new Date(2022, 10, 8),
             status: true,
         }, {
             id: 3,
             firstName: 'אביגיל',
             lastName: 'שמאי',
             tz: '212826937',
-            birthDate: new Date(2002, 6, 5),
+            birthDate: new Date(2000, 6, 5),
             isMale: false,
-            empRoleId: [],
-            startDate: new Date(2022, 10, 10),
+            empRole: [],
+            startDate: new Date(2022, 10, 1),
             status: true,
         }
 
