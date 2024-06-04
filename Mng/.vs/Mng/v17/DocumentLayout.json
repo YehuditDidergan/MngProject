@@ -1,105 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\",
+  "WorkspaceRootPath": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/YD/True/SqlTable/dbo.EmployeeRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/YD/True/SqlTable/dbo.Employee.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\entities\\employeeroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\entities\\employeeroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\mappingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\mappingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\entities\\employeeroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\entities\\employeeroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\models\\employeerolesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\models\\employeerolesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\mappingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\mappingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\dto\\employeerolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\employeerolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\mngproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|solutionrelative:services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\data\\mng.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\mng.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\data\\mng.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\mng.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\core\\models\\employeewithoutid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\models\\employeerolesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\models\\employeerolesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\mappingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\mappingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\dto\\employeerolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\employeerolesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\models\\employeewithoutid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\models\\employeewithoutid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mng\\data\\migrations\\20240506122355_changerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\mappingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\mappingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\mngproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AD8976-BB84-44AE-BA37-CA6DECCCA56B}|MngProject\\Mng.Api.csproj|solutionrelative:mngproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\core\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248A1D3-52BB-4BF8-A679-607014A30DD7}|Core\\Mng.Core.csproj|solutionrelative:core\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFA8520-998F-4726-9573-57DE933F7475}|Services\\Mng.Services.csproj|solutionrelative:services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|f:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\mngproject\\mng\\data\\migrations\\20240506122355_changerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC12979-458C-41FE-8D6D-35592E829D9B}|Data\\Mng.Data.csproj|solutionrelative:data\\migrations\\20240506122355_changerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -110,172 +123,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 88,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Employee [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/YD/True/SqlTable/dbo.Employee.sql",
+              "ToolTip": "dbo.Employee [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-01T22:35:06.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.EmployeeRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/YD/True/SqlTable/dbo.EmployeeRoles.sql",
+              "ToolTip": "dbo.EmployeeRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-28T12:17:40.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Repositories\\EmployeeRepository.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Repositories\\EmployeeRepository.cs",
               "RelativeToolTip": "Data\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAgwC4AAAAvAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAD4vzgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T14:15:02.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MappingModel.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\MappingModel.cs",
-              "RelativeDocumentMoniker": "MngProject\\MappingModel.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\MappingModel.cs",
-              "RelativeToolTip": "MngProject\\MappingModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Employee.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\Employee.cs",
+              "RelativeToolTip": "Core\\Entities\\Employee.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:41:05.363Z"
+              "WhenOpened": "2024-04-30T13:31:09.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EmployeeRoles.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\EmployeeRoles.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\EmployeeRoles.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\EmployeeRoles.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\EmployeeRoles.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\EmployeeRoles.cs",
               "RelativeToolTip": "Core\\Entities\\EmployeeRoles.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T13:31:09.983Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\Employee.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\Employee.cs",
-              "RelativeToolTip": "Core\\Entities\\Employee.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:31:09.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Role.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\Role.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Role.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Entities\\Role.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Entities\\Role.cs",
               "RelativeToolTip": "Core\\Entities\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:31:09.978Z"
+              "WhenOpened": "2024-04-30T13:31:09.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Services\\EmployeeService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAIA7wCwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:59:19.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\DataContext.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\DataContext.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\DataContext.cs",
               "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAArwBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T10:01:23.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MappingDTO.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\MappingDTO.cs",
-              "RelativeDocumentMoniker": "Core\\MappingDTO.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\MappingDTO.cs",
-              "RelativeToolTip": "Core\\MappingDTO.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowA8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T19:15:06.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "MngProject\\Controllers\\EmployeeController.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "MngProject\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowB8AAAAZAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAIA3wDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T13:59:09.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeRolesDTO.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\EmployeeRolesDTO.cs",
-              "RelativeDocumentMoniker": "Core\\DTO\\EmployeeRolesDTO.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\EmployeeRolesDTO.cs",
-              "RelativeToolTip": "Core\\DTO\\EmployeeRolesDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T19:06:51.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeModel.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Models\\EmployeeModel.cs",
-              "RelativeDocumentMoniker": "MngProject\\Models\\EmployeeModel.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Models\\EmployeeModel.cs",
-              "RelativeToolTip": "MngProject\\Models\\EmployeeModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:27:23.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeRolesModel.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Models\\EmployeeRolesModel.cs",
-              "RelativeDocumentMoniker": "MngProject\\Models\\EmployeeRolesModel.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Models\\EmployeeRolesModel.cs",
-              "RelativeToolTip": "MngProject\\Models\\EmployeeRolesModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T18:55:25.473Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Program.cs",
-              "RelativeDocumentMoniker": "MngProject\\Program.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Program.cs",
-              "RelativeToolTip": "MngProject\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAD4vx8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:03:27.771Z"
+              "Title": "Mng.Data.csproj",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Mng.Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Mng.Data.csproj",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Mng.Data.csproj",
+              "RelativeToolTip": "Data\\Mng.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-09T07:35:23.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeeDTO.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\EmployeeDTO.cs",
-              "RelativeDocumentMoniker": "Core\\DTO\\EmployeeDTO.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\EmployeeDTO.cs",
-              "RelativeToolTip": "Core\\DTO\\EmployeeDTO.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\IEmployeeService.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "Core\\Services\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T11:24:28.781Z"
+              "WhenOpened": "2024-05-09T10:17:58.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Repositories\\IEmployeeRepository.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Repositories\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Core\\Repositories\\IEmployeeRepository.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Repositories\\IEmployeeRepository.cs",
               "RelativeToolTip": "Core\\Repositories\\IEmployeeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,23 +270,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\RoleRepository.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\RoleRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAABAAAA",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Program.cs",
+              "RelativeDocumentMoniker": "MngProject\\Program.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Program.cs",
+              "RelativeToolTip": "MngProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:17:46.631Z"
+              "WhenOpened": "2024-05-07T18:03:27.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MngProject\\appsettings.json",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\appsettings.json",
+              "RelativeToolTip": "MngProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T11:32:52.32Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\..\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:04:34.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Repositories\\IRoleRepository.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Repositories\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "Core\\Repositories\\IRoleRepository.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Repositories\\IRoleRepository.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Repositories\\IRoleRepository.cs",
               "RelativeToolTip": "Core\\Repositories\\IRoleRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,22 +319,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "EmployeeRolesModel.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Models\\EmployeeRolesModel.cs",
+              "RelativeDocumentMoniker": "MngProject\\Models\\EmployeeRolesModel.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Models\\EmployeeRolesModel.cs",
+              "RelativeToolTip": "MngProject\\Models\\EmployeeRolesModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:55:25.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "MngProject\\Models\\EmployeeModel.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "MngProject\\Models\\EmployeeModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:27:23.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MappingModel.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\MappingModel.cs",
+              "RelativeDocumentMoniker": "MngProject\\MappingModel.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\MappingModel.cs",
+              "RelativeToolTip": "MngProject\\MappingModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:41:05.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "RoleDTO.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\RoleDTO.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\RoleDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTO\\RoleDTO.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\DTO\\RoleDTO.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\RoleDTO.cs",
               "RelativeToolTip": "Core\\DTO\\RoleDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T19:06:29.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
+              "Title": "EmployeeRolesDTO.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\EmployeeRolesDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTO\\EmployeeRolesDTO.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\EmployeeRolesDTO.cs",
+              "RelativeToolTip": "Core\\DTO\\EmployeeRolesDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:06:51.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeWithoutId.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Models\\EmployeeWithoutId.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\EmployeeWithoutId.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Models\\EmployeeWithoutId.cs",
+              "RelativeToolTip": "Core\\Models\\EmployeeWithoutId.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAewBgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:39:43.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RoleRepository.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T10:17:46.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTO\\EmployeeDTO.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\DTO\\EmployeeDTO.cs",
+              "RelativeToolTip": "Core\\DTO\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:24:28.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MappingDTO.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\MappingDTO.cs",
+              "RelativeDocumentMoniker": "Core\\MappingDTO.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\MappingDTO.cs",
+              "RelativeToolTip": "Core\\MappingDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:15:06.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "RoleService.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Services\\RoleService.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Services\\RoleService.cs",
               "RelativeDocumentMoniker": "Services\\RoleService.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Services\\RoleService.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Services\\RoleService.cs",
               "RelativeToolTip": "Services\\RoleService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +438,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "RoleController.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Controllers\\RoleController.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "MngProject\\Controllers\\RoleController.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\MngProject\\Controllers\\RoleController.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\MngProject\\Controllers\\RoleController.cs",
               "RelativeToolTip": "MngProject\\Controllers\\RoleController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +450,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "IRoleService.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Services\\IRoleService.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Services\\IRoleService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\IRoleService.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Services\\IRoleService.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Core\\Services\\IRoleService.cs",
               "RelativeToolTip": "Core\\Services\\IRoleService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,59 +462,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:59:19.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Mng.Data.csproj",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Mng.Data.csproj",
-              "RelativeDocumentMoniker": "Data\\Mng.Data.csproj",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Mng.Data.csproj",
-              "RelativeToolTip": "Data\\Mng.Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-09T07:35:23.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Services\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IEmployeeService.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Services\\IEmployeeService.cs",
-              "RelativeToolTip": "Core\\Services\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:17:58.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EmployeeWithoutId.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Models\\EmployeeWithoutId.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\EmployeeWithoutId.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Core\\Models\\EmployeeWithoutId.cs",
-              "RelativeToolTip": "Core\\Models\\EmployeeWithoutId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAMwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T14:39:43.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "20240506122355_ChangeRole.cs",
-              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Migrations\\20240506122355_ChangeRole.cs",
+              "DocumentMoniker": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Migrations\\20240506122355_ChangeRole.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240506122355_ChangeRole.cs",
-              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Mng\\Data\\Migrations\\20240506122355_ChangeRole.cs",
+              "ToolTip": "F:\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\MngProject\\Mng\\Data\\Migrations\\20240506122355_ChangeRole.cs",
               "RelativeToolTip": "Data\\Migrations\\20240506122355_ChangeRole.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

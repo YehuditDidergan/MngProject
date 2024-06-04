@@ -5,14 +5,19 @@ import { Button } from 'react-bootstrap';
 import 'react-datepicker/dist/react-datepicker.css';
 
 function EditModel({ emp, setEmp }) {
+  console.log(RoleStore.roles)
+  const today = new Date();
 
   return (
     <>
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+        {console.log('emp in edit : ' + emp.startDate)}
+        {/* {console.log('role in edit : '+emp.employeeRoles[0].id===RoleStore[0].name)} */}
         {RoleStore.roles.map((role, index) => {
-          // Check if the role is already in empRole
-          const isRoleSelected = emp.empRole.some(item => item.roleId === role.id);
-
+          // Check if the role is already in employeeRoles
+          // console.log(emp.employeeRoles)
+          const isRoleSelected = emp && emp.employeeRoles && emp.employeeRoles.length > 0
+            && emp.employeeRoles.some(employeeRole => RoleStore.roles.find(role => role.id === employeeRole.roleId))
           return (
             <div key={index} style={{ display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
               <h5>{role.name}</h5>
@@ -23,16 +28,16 @@ function EditModel({ emp, setEmp }) {
                   id={`true-${index}`}
                   name={`isManagement-${index}`}
                   value={true}
-                  checked={isRoleSelected && emp.empRole.find(item => item.roleId === role.id)?.isManagement === true}
+                  checked={isRoleSelected && emp.employeeRoles.find(item => item.roleId === role.id)?.isManagement === true}
                   onChange={(e) => {
-                    const updatedEmpRole = [...emp.empRole];
-                    const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                    const updatedemployeeRoles = [...emp.employeeRoles];
+                    const existingRoleIndex = emp.employeeRoles.findIndex(item => item.roleId === role.id);
                     if (existingRoleIndex !== -1) {
-                      updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], isManagement: true };
+                      updatedemployeeRoles[existingRoleIndex] = { ...emp.employeeRoles[existingRoleIndex], isManagement: true };
                     } else {
-                      updatedEmpRole.push({ roleId: role.id, isManagement: true, startRole: null });
+                      updatedemployeeRoles.push({ roleId: role.id, isManagement: true, startRole: null });
                     }
-                    setEmp({ ...emp, empRole: updatedEmpRole });
+                    setEmp({ ...emp, employeeRoles: updatedemployeeRoles });
                   }}
                 />
                 <label htmlFor={`true-${index}`}>ניהולי</label>
@@ -42,16 +47,16 @@ function EditModel({ emp, setEmp }) {
                   id={`false-${index}`}
                   name={`isManagement-${index}`}
                   value={false}
-                  checked={isRoleSelected && emp.empRole.find(item => item.roleId === role.id)?.isManagement === false}
+                  checked={isRoleSelected && emp.employeeRoles.find(item => item.roleId === role.id)?.isManagement === false}
                   onChange={(e) => {
-                    const updatedEmpRole = [...emp.empRole];
-                    const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                    const updatedemployeeRoles = [...emp.employeeRoles];
+                    const existingRoleIndex = emp.employeeRoles.findIndex(item => item.roleId === role.id);
                     if (existingRoleIndex !== -1) {
-                      updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], isManagement: false };
+                      updatedemployeeRoles[existingRoleIndex] = { ...emp.employeeRoles[existingRoleIndex], isManagement: false };
                     } else {
-                      updatedEmpRole.push({ roleId: role.id, isManagement: false, startRole: null });
+                      updatedemployeeRoles.push({ roleId: role.id, isManagement: false, startRole: null });
                     }
-                    setEmp({ ...emp, empRole: updatedEmpRole });
+                    setEmp({ ...emp, employeeRoles: updatedemployeeRoles });
                   }}
                 />
                 <label htmlFor={`false-${index}`}>לא ניהולי</label>
@@ -60,21 +65,25 @@ function EditModel({ emp, setEmp }) {
               <DatePicker
                 className='form-control'
                 dateFormat="dd/MM/yyyy"
-                selected={isRoleSelected ? emp.empRole.find(item => item.roleId === role.id)?.startRole : null}
+                selected={isRoleSelected ? emp.employeeRoles.find(item => item.roleId === role.id)?.startRole : null}
                 onChange={(date) => {
-                  const updatedEmpRole = [...emp.empRole];
-                  const existingRoleIndex = emp.empRole.findIndex(item => item.roleId === role.id);
+                  const updatedemployeeRoles = [...emp.employeeRoles];
+                  const existingRoleIndex = emp.employeeRoles.findIndex(item => item.roleId === role.id);
                   if (existingRoleIndex !== -1) {
-                    updatedEmpRole[existingRoleIndex] = { ...emp.empRole[existingRoleIndex], startRole: date };
-                    setEmp({ ...emp, empRole: updatedEmpRole });
+                    updatedemployeeRoles[existingRoleIndex] = { ...emp.employeeRoles[existingRoleIndex], startRole: date };
+                    setEmp({ ...emp, employeeRoles: updatedemployeeRoles });
                   }
                 }}
+                minDate={new Date(emp.startDate?emp.startDate:today)}
+                maxDate={new Date(today.getFullYear() + 50, today.getMonth(), today.getDate())}
               />
-              {isRoleSelected &&
+              {emp.employeeRoles.find(item => item.roleId === role.id) &&
                 <button style={{ border: 'none' }} onClick={() => {
-                  const updatedEmpRole = emp.empRole.filter(item => item.roleId !== role.id);
-                  setEmp({ ...emp, empRole: updatedEmpRole });
-                }}>🗑</button>}
+                  const updatedemployeeRoles = emp.employeeRoles.filter(item => item.roleId !== role.id);
+                  setEmp({ ...emp, employeeRoles: updatedemployeeRoles });
+                }}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-trash3" viewBox="0 0 16 16">
+                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                  </svg></button>}
             </div>
           );
         })}

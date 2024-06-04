@@ -1,215 +1,136 @@
-import { makeObservable, observable, action, runInAction } from 'mobx';
+import { makeObservable, observable, action, runInAction, toJS } from 'mobx';
 import { format } from 'date-fns';
+
+const formatDate = (dateString) => {
+    if (typeof dateString === 'string') {
+        const dateParts = dateString.split('T')[0].split('-');
+        const year = parseInt(dateParts[0]);
+        const month = parseInt(dateParts[1]) - 1; // חודש מתחיל מ-0
+        const day = parseInt(dateParts[2]);
+        return new Date(year, month, day);
+    }
+};
+
+const baseUrl = 'https://localhost:7067/api/Employee'
 
 class EmployeeStore {
 
-    employees = [
-        {
-            id: 0,
-            firstName: 'יהודית',
-            lastName: 'דידרגן',
-            tz: '325984870',
-            birthDate: new Date(2004, 1, 1),
-            isMale: false,
-            empRole: [{
-                roleId: 3,
-                isManagement: true,
-                startRole: new Date(2024, 1, 12)
-            }, {
-                roleId: 2,
-                isManagement: false,
-                startRole: new Date(2012, 10, 5)
-            }],
-            startDate: new Date(2024, 1, 12),
-            status: true,
-        },
-        {
-            id: 1,
-            firstName: 'אבא',
-            lastName: 'דידרגן',
-            tz: '059825232',
-            birthDate: new Date(1965, 4, 12),
-            isMale: true,
-            empRole: [{
-                roleId: 2,
-                isManagement: false,
-                startRole: new Date(2012, 10, 5)
-            }],
-            startDate: new Date(2020, 15, 3),
-            status: true,
-        },
-        {
-            id: 2,
-            firstName: 'אמא',
-            lastName: 'דידרגן',
-            tz: '023635055',
-            birthDate: new Date(1977, 24, 12),
-            isMale: false,
-            empRole: [{
-                roleId: 5,
-                isManagement: true,
-                startRole: new Date(2015, 3, 4)
-            }, {
-                roleId: 4,
-                isManagement: false,
-                startRole: new Date(2010, 11, 5)
-            }, {
-                roleId: 3,
-                isManagement: false,
-                startRole: new Date(2002, 1, 5)
-            }],
-            startDate: new Date(2022, 10, 8),
-            status: true,
-        }, {
-            id: 3,
-            firstName: 'אביגיל',
-            lastName: 'שמאי',
-            tz: '212826937',
-            birthDate: new Date(2000, 6, 5),
-            isMale: false,
-            empRole: [],
-            startDate: new Date(2022, 10, 1),
-            status: true,
-        }
-
-    ];
-    id = 4;//אם יש api, אין בעיה בחוסר ה id
-    baseUrl = 'https://localhost:7067/api/Employee'
-
+    employees = []
+    arr = []
     constructor() {
         makeObservable(this, {
-            employees: observable,
+            employees: false,
             addEmployee: action,
             getAllEmployees: action,
             removeEmployee: action,
             putEmployeeById: action,
-            getEmployeeById: action,//זה אמור להיות observable
-            formatDateFields: action
+            // getEmployeeById: observable//זה אמור להיות observable
         });
         this.getAllEmployees()
     }
 
-    formatDateFields() {
-        this.employees.forEach(emp => {
-            emp.birthDate = format(new Date(emp.birthDate), 'dd/MM/yyyy');
-            emp.startDate = format(new Date(emp.startDate), 'dd/MM/yyyy');
-        });
-    }
-
     async getAllEmployees() {
-        // fetch('https://localhost:7067/api/Employee', {
-        //     method: "GET",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     }
-        // }).then((res) => {
-        //     res.json().then((data) => {
-        //         console.log(data);
-        //         runInAction(() => {
-        //             this.employees = JSON.parse(JSON.stringify(data));
-        //             this.formatDateFields()
-        //         });
-        //     });
-        // }).catch((error) => {
-        //     console.log(error);
-        //     console.log("error");
-        // });
+        try {
+            const res = await fetch(baseUrl, {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            });
+            const data = await res.json();
+
+            runInAction(() => {
+                this.employees = data;
+                this.employees.forEach(employee => {
+                    employee.birthDate = formatDate(employee.birthDate);
+                    employee.startDate = formatDate(employee.startDate);
+                    if (employee.employeeRoles) {
+                        employee.employeeRoles.forEach(role => {
+                            role.startRole = formatDate(role.startRole);
+                        });
+                    } else {
+                        console.log("there are no roles for employee with ID " + employee.id);
+                    }
+                });
+            });
+
+            console.log(this.employees);
+            return data;
+        } catch (error) {
+            console.log(error);
+            throw error;
+        }
     }
 
-    getEmployeeById(id) {
-        // fetch(`${this.baseUrl}/${id}`, {
-        //     method: "GET",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     }
-        // }).then((res) => {
-        //     res.json().then((data) => {
-        //         runInAction(() => {
-        //             // אולי כדאי להוסיף בדיקה כאן שהעובד נמצא ברשימת העובדים ולעדכן רק אם כן
-        //             this.employees = [data];
-        //         });
-        //     });
-        // });
-        return this.employees.filter(emp => emp.id === id)
-    }
+    // getEmployeeById(id) {
+    //     return this.employees.filter(emp => emp.id === id)
+    // }
 
     addEmployee = async (employee) => {
+        try {
+            employee.birthDate = format(new Date(employee.birthDate), "yyyy-MM-dd'T'HH:mm:ss.SSSxxx");
+            employee.startDate = format(new Date(employee.startDate), "yyyy-MM-dd'T'HH:mm:ss.SSSxxx");
+            const response = await fetch(baseUrl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(employee),
 
-        // const response = await fetch(this.baseUrl, {
-        //     method: "POST",
-        //     body: JSON.stringify(employee),
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        // });
-        // if (response.status === 200) {
-        //     this.employees.push(employee)
-        //     console.log("addEmployee")
-        // }
-        // else {
-        //     console.log("fail addEmployee")
-        // }
-        console.log(employee)
-        this.employees.push(employee);
-
-        console.log(this.employees.map(e => e.id))
+            });
+            if (response.status === 200) {
+                this.getAllEmployees();
+                console.log("addEmployee")
+            } else console.log(error)
+        }
+        catch {
+            console.log("fail addEmployee")
+        }
     }
 
     async putEmployeeById(id, updatedEmployee) {
-        // const url = `${this.baseUrl}/${id}`;
+        try {
+            const response = await fetch(`${baseUrl}/${id}`, {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(updatedEmployee),
+            });
 
-        // const response = await fetch(url, {
-        //     method: "PUT",
-        //     body: JSON.stringify(updatedEmployee),
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        // });
+            if (response.ok) {
 
-        // if (response.ok) {
-
-        const index = this.employees.findIndex(emp => emp.id === id);//בדיקה האם קיים
-        console.log(index)
-        if (index !== -1) {
-            this.employees[index] = { ...this.employees[index], ...updatedEmployee };
-            const emp = this.employees.find(e => e.id === index)//האוביקט שצריך להשתנות
-
-            console.log("putEmployeeById success");
-            // console.log(`update emp: ${emp} firstName: ${emp.firstName}`)
-            // console.log(`index: ${index} emp: ${emp} firstName: ${emp.firstName}`)
+                const index = this.employees.findIndex(emp => emp.id === id);//בדיקה האם קיים
+                console.log(index)
+                if (index !== -1) {
+                    this.employees[index] = { ...this.employees[index], ...updatedEmployee };
+                    const emp = this.employees.find(e => e.id === index)//האוביקט שצריך להשתנות
+                    console.log("putEmployeeById success");
+                    console.log("response in put :"+response)
+                    return response
+                }
+            }
         }
-
-        // } else {
-        //     console.log("putEmployeeById failed");
-        // }
+        catch {
+            console.log("putEmployeeById failed");
+            return null
+        }
     }
+
     async removeEmployee(id) {
-        const employee = this.employees.find(emp => emp.id === id);
-        if (employee) {
-            const updatedEmployee = { ...employee, status: !employee.status };
-            //const url = `${this.baseUrl}/${id}`;
+        const response = await fetch(`${baseUrl}/${id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
 
-            // const response = await fetch(url, {
-            //     method: "PUT",
-            //     body: JSON.stringify(updatedEmployee),
-            //     headers: {
-            //         "Content-Type": "application/json",
-            //     },
-            // });
-
-            // if (response.ok) {
-            const index = this.employees.findIndex(emp => emp.id === id);
-            if (index !== -1) {
-                this.employees[index] = updatedEmployee;
-                console.log("removeEmployee success");
-            }
-            else {
-                console.log("updateEmployeeStateById failed");
-            }
+        if (response.ok) {
+            console.log("removeEmployee success");
+            this.employees = this.employees.filter(emp => emp.id !== id);
         } else {
             console.log("Employee not found to delete");
         }
     }
-
 }
 export default new EmployeeStore();

@@ -336,11 +336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\פרקטיקום\\Mng\\Services\\Mng.Services.csproj",
+      "projectUniqueName": "F:\\פרקטיקום\\MngProject\\Mng\\Services\\Mng.Services.csproj",
       "projectName": "Mng.Services",
-      "projectPath": "F:\\פרקטיקום\\Mng\\Services\\Mng.Services.csproj",
+      "projectPath": "F:\\פרקטיקום\\MngProject\\Mng\\Services\\Mng.Services.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "F:\\פרקטיקום\\Mng\\Services\\obj\\",
+      "outputPath": "F:\\פרקטיקום\\MngProject\\Mng\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -361,8 +361,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\פרקטיקום\\Mng\\Core\\Mng.Core.csproj": {
-              "projectPath": "F:\\פרקטיקום\\Mng\\Core\\Mng.Core.csproj"
+            "F:\\פרקטיקום\\MngProject\\Mng\\Core\\Mng.Core.csproj": {
+              "projectPath": "F:\\פרקטיקום\\MngProject\\Mng\\Core\\Mng.Core.csproj"
             }
           }
         }
@@ -395,15 +395,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
+            "version": "[6.0.31, 6.0.31]"
           }
         ],
         "frameworkReferences": {
@@ -411,7 +411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
       }
     }
   }

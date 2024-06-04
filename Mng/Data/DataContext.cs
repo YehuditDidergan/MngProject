@@ -10,7 +10,8 @@ namespace Mng.Data
         public DbSet<Employee> employees { get; set; }
         public DbSet<Role> roles { get; set; }
         public DbSet<EmployeeRoles> EmployeeRoles { get; set; }
-        public DataContext() { }
+        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=YD");

@@ -17,7 +17,7 @@ namespace Mng.Core.Models
         public bool IsMale { get; set; } //Gender
         public DateTime StartDate { get; set; }
         public bool Status { get; set; }
-        public IEnumerable<EmployeeRolesModel> EmployeeRolesModel { get; set; }
+        public IEnumerable<EmployeeRolesModel> EmployeeRoles { get; set; }
 
     }
 }

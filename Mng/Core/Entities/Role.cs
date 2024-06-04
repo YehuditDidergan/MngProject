@@ -14,8 +14,7 @@ namespace Mng.Core
     {
         [Key]
         public int Id { get; set; }
-        //[Required(ErrorMessage = "Name is required")]
-        //[StringLength(100, ErrorMessage = "Name must be less than 100 characters")]
+        [Required(ErrorMessage = "Name is required")]
 
         public string Name { get; set; }
         public IEnumerable<EmployeeRoles> EmployeeRoles { get; set; }

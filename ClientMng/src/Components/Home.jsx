@@ -1,10 +1,47 @@
-// import React from 'react';
-// export default function Home() {
-//     return (<>
-//         <div className='container'>Home</div>
-//     </>
-//     )
-// }
+import React, { useState, useEffect } from 'react';
+import EmployeeStore from '../mobx/EmployeeStore';
+export default function Home() {
+    
+    const [employees, setEmployees] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    const fetchEmployees = async () => {
+        setLoading(true);
+        try {
+            
+            setEmployees(data);
+            console.log("home happen!!!!!!!!!!!!!")
+        } catch (error) {
+        }
+        setLoading(false);
+    };
+
+    useEffect(() => {
+        fetchEmployees();
+    }, []);
+
+    const renderEmployees = () => {
+        if (loading) {
+            return <p>Loading...</p>;
+        }
+
+        return employees.map(employee => (
+            <div key={employee.id}>
+                <h3>{employee.name}</h3>
+                {/* שדות נוספים של העובד */}
+            </div>
+        ));
+    };
+
+    return (
+        <div>
+            {renderEmployees()}
+        </div>
+    );
+};
+
+    
+
 
 
 

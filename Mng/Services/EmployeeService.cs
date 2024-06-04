@@ -24,11 +24,6 @@ namespace Mng.Services
             return await _employeeRepository.Add(employee);
         }
 
-        //public void Delete(int id)
-        //{
-        //    _employeeRepository.Delete(id);
-        //}
-
         public async Task<IEnumerable<Employee>> GetAll()
         {
             return await _employeeRepository.GetAll();
@@ -39,9 +34,14 @@ namespace Mng.Services
             return await _employeeRepository.GetById(id);
         }
 
-        public async Task<bool> Update(int id, Employee employee)
+        public async Task<bool> Remove(int id)
         {
-            return await _employeeRepository.Update(id, employee);
+            return await _employeeRepository.Remove(id);
+        }
+
+        public async Task<bool> Update(Employee employee)
+        {
+            return await _employeeRepository.Update(employee);
         }
        
     }

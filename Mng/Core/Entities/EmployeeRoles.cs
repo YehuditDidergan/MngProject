@@ -13,10 +13,10 @@ namespace Mng.Core.Entities
     {
         [Key]
         public int Id { get; set; }
-       // [Required(ErrorMessage = "Managment status is required")]
+        [Required(ErrorMessage = "Managment status is required")]
 
         public bool IsManagement { get; set; }
-        //[Required(ErrorMessage = "Start role is required")]
+        [Required(ErrorMessage = "Start role is required")]
 
         public DateTime StartRole { get; set; }
 

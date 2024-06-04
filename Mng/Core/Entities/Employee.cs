@@ -15,31 +15,33 @@ namespace Mng.Core
         [Key]
         public int Id { get; set; }
 
-        //[Required(ErrorMessage = "First name is required")]
-        //[StringLength(50, ErrorMessage = "First name must be less than 50 characters")]
+        [Required(ErrorMessage = "First name is required")]
+        [StringLength(50, ErrorMessage = "First name must be less than 50 characters")]
 
         public string FirstName { get; set; }
-        //[Required(ErrorMessage = "Last name is required")]
-       // [StringLength(50, ErrorMessage = "Last name must be less than 50 characters")]
+        [Required(ErrorMessage = "Last name is required")]
+        [StringLength(50, ErrorMessage = "Last name must be less than 50 characters")]
 
         public string LastName { get; set; }
 
-       // [Required(ErrorMessage = "Identity number is required")]
-        //[RegularExpression(@"^\d{9}$", ErrorMessage = "Identity number must be 9 digits")]
+        [Required(ErrorMessage = "Identity number is required")]
+        [RegularExpression(@"^\d{9}$", ErrorMessage = "Identity number must be 9 digits")]
 
         public string TZ { get; set; }
-       // [Required(ErrorMessage = "Birth date is required")]
+        [Required(ErrorMessage = "Birth date is required")]
 
         public DateTime BirthDate { get; set; }
-        //[Required(ErrorMessage = "Gender is required")]
+        [Required(ErrorMessage = "Gender is required")]
 
         public bool IsMale { get; set; } //Gender
-        //[Required(ErrorMessage = "Start date is required")]
+        [Required(ErrorMessage = "Start date is required")]
 
         public DateTime StartDate { get; set; }
-       // [Required(ErrorMessage = "Activation status is required")]
+        [Required(ErrorMessage = "Activation status is required")]
 
         public bool Status { get; set; }
+
+
         public IEnumerable<EmployeeRoles> EmployeeRoles { get; set; }
     }
 }

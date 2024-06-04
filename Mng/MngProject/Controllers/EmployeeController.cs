@@ -4,9 +4,6 @@ using Mng.Core;
 using Mng.Core.DTO;
 using Mng.Core.Models;
 using Mng.Core.Services;
-using Mng.Services;
-using System.Collections.Generic;
-
 
 namespace Mng.Api.Controllers
 {
@@ -24,7 +21,6 @@ namespace Mng.Api.Controllers
         [HttpGet]
         public async Task<ActionResult> Get()
         {
-            //return Ok(_employeeService.GetAll());
             var emps = await _employeeService.GetAll();
             return Ok(_mapper.Map<IEnumerable<EmployeeDTO>>(emps));
         }
@@ -34,34 +30,36 @@ namespace Mng.Api.Controllers
         {
             var emp = await _employeeService.GetById(id);
             if (emp == null)
-            {
                 return NotFound();
-            }
             return Ok(_mapper.Map<EmployeeDTO>(emp));
-            //return Ok(_mapper.Map<EmployeeDTO>(emp));
         }
 
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] EmployeeModel employeeModel)
         {
             bool success = await _employeeService.Add(_mapper.Map<Employee>(employeeModel));
+            if (!success)
+                return Conflict("Employee has duplicate roles, or dates are wrong!"); 
             return Ok(success);
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] EmployeeModel employeeModel)
         {
-            return Ok(await _employeeService.Update(id, _mapper.Map<Employee>(employeeModel)));
+            var employee = await _employeeService.GetById(id);
+            if (employee is null)
+            {
+                return NotFound();
+            }
+            var success = await _employeeService.Update(_mapper.Map(employeeModel, employee));
+            if (!success)
+                return Conflict("Employee has duplicate roles, or dates are wrong!");
+            return Ok(success);
         }
-
-        //[HttpDelete("{id}")]
-        //public ActionResult Delete(int id)
-        //{
-        //    var emp = _employeeService.GetById(id);
-        //    if(emp is null)
-        //        return NotFound();
-        //    _employeeService.Delete(id);
-        //    return Ok(emp);
-        //}
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            return Ok(await _employeeService.Remove(id));
+        }
     }
 }
